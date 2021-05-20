@@ -1,6 +1,6 @@
 # plantmanager
 
-![Plant Manger Logo](https://raw.githubusercontent.com/klebsoncarneiro/plantmanager/assets/splash_logo.png)
+![Plant Manger Logo](https://raw.githubusercontent.com/klebsoncarneiro/plantmanager/main/assets/splash_logo.png)
 
 # NLW#5
 
@@ -22,7 +22,7 @@ Foi um evento pra toda a comunidade evoluir junto em diversas plataformas e ling
 -   [React Native Iphone X Helper](https://github.com/ptelad/react-native-iphone-x-helper)
 -   ['Fake' JSON Server](https://github.com/typicode/json-server)
 -   [Expo SVG](https://docs.expo.io/versions/latest/sdk/svg/)
--   [Lottie](https://github.com/lottie-react-native/lottie-react-native + https://lottiefiles.com/)
+-   [Lottie](https://github.com/lottie-react-native/lottie-react-native)
 -   [Async Storage](https://github.com/react-native-async-storage/async-storage)
 -   [Expo DateTimePicker](https://docs.expo.io/versions/latest/sdk/date-time-picker/)
 -   [date-fns](date-fns)
