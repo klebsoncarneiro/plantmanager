@@ -1,0 +1,55 @@
+import React from 'react';
+import { Text, StyleSheet } from 'react-native';
+import { RectButton, RectButtonProps } from 'react-native-gesture-handler'
+
+import colors from '../styles/colors';
+import fonts from '../styles/fonts';
+
+interface EnvironmentButtonProps extends RectButtonProps {
+    title: string;
+    active?: boolean;/*opcional*/
+}
+
+export function EnvironmentButton({ title, active = false, ...rest } : EnvironmentButtonProps){
+    return(
+        <RectButton 
+            style={[
+                styles.container,
+                active && styles.containerActive
+            ]}
+            {...rest}>
+            <Text style={[
+                styles.text,
+                active && styles.textActive
+               ]}
+            >
+                {title}
+            </Text>
+        </RectButton>
+    );
+}
+
+const styles = StyleSheet.create({
+    container: {
+        backgroundColor: colors.shape,
+        borderRadius: 12,
+        width: 90,
+        height: 40,
+        justifyContent: 'center',
+        alignItems: 'center',    
+        marginHorizontal: 5
+    },
+    containerActive: {        
+        color: colors.green,
+        backgroundColor: colors.green_light
+    },
+    text: {
+        color: colors.heading_green,
+        fontSize: 12,
+        fontFamily: fonts.text,
+    },
+    textActive: {
+        color: colors.green_dark,
+        fontFamily: fonts.heading,
+    }
+});
