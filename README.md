@@ -1,6 +1,6 @@
 # plantmanager
 
-![Plant Manger Logo](https://raw.githubusercontent.com/klebsoncarneiro/plantmanager/main/assets/splash_logo.png)
+![Plant Manger Logo](https://raw.githubusercontent.com/klebsoncarneiro/plantmanager/main/assets/favicon.png)
 
 # NLW#5
 
